@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://arkadiiraih.github.io/vk_test_app/",
   "scripts": {
     "dev": "parcel src/index.html --https",
+    "predeploy": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArkadiiRaih/vk_test_app.git"
+  },
+  "author": "ArkadiiRaih",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -22,6 +29,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
+    "gh-pages": "^2.1.1",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1"
   },
