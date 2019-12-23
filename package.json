@@ -6,14 +6,14 @@
   "homepage": "https://arkadiiraih.github.io/vk_test_app/",
   "scripts": {
     "dev": "parcel src/index.html --https",
-    "predeploy": "parcel build src/index.html",
+    "predeploy": "parcel build src/index.html --public-url /vk_test_app",
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArkadiiRaih/vk_test_app.git"
+    "url": "git+git@github.com:ArkadiiRaih/vk_test_app.git"
   },
   "author": "ArkadiiRaih",
   "license": "ISC",
