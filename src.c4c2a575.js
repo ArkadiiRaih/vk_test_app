@@ -331,4 +331,4 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{"react":"n8MK","@vkontakte/vk-connect":"K5m3","@vkontakte/vkui/dist/components/View/View":"Coqx","@vkontakte/vkui/dist/vkui.css":"ZyIB","@vkontakte/vkui/dist/components/Panel/Panel":"yCGl","@vkontakte/vkui/dist/components/PanelHeader/PanelHeader":"Mlox","@vkontakte/vkui/dist/components/Button/Button":"m93u","@vkontakte/vkui/dist/components/Div/Div":"yG66","@vkontakte/vkui/dist/components/PanelSpinner/PanelSpinner":"WsuL"}],"Focm":[function(require,module,exports) {
 "use strict";require("core-js/es/map"),require("core-js/es/set");var e=n(require("react")),r=require("react-dom"),t=n(require("./App")),u=n(require("@vkontakte/vk-connect"));function n(e){return e&&e.__esModule?e:{default:e}}u.default.send("VKWebAppInit"),(0,r.render)(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"core-js/es/map":"M37L","core-js/es/set":"A4zj","react":"n8MK","react-dom":"NKHc","./App":"lY9v","@vkontakte/vk-connect":"K5m3"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.c4c2a575.js.map
+//# sourceMappingURL=/vk_test_app/src.c4c2a575.js.map
